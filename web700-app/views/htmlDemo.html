@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WEB700 HTML Demo</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+   
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Heet Zadafiya</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+                <li class="nav-item active"><a class="nav-link" href="/htmlDemo">HTML Demo</a></li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="/students">Students</a></li>
+                <li class="nav-item"><a class="nav-link" href="/tas">Teaching Assistants</a></li>
+                <li class="nav-item"><a class="nav-link" href="/courses">Courses</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <main class="col-md-12">
+
+
+                <header>
+                    <h1>HTML5 Demo</h1>
+                </header>
+
+                <section id="intro">
+                    <p>Welcome to the HTML5 demo section. Here, we explore the exciting features and elements introduced with HTML5, enhancing the web development experience.</p>
+                </section>
+
+                <head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>Tables Section</title>
+                    <style>
+                        table {
+                            width: 100%;
+                            border-collapse: collapse;
+                            margin-bottom: 20px;
+                        }
+                        th, td {
+                            border: 1px solid #000;
+                            padding: 8px;
+                            text-align: center;
+                        }
+                        caption {
+                            font-weight: bold;
+                            font-size: 1.2em;
+                            margin-bottom: 5px;
+                        }
+                    </style>
+                </head>
+                <body>
+                
+                <section>
+                    <h2>Popular Movies</h2>
+                
+                    <table>
+                        <caption>Top Movies by Box Office</caption>
+                        <thead>
+                            <tr>
+                                <th>Movie</th>
+                                <th>Release Year</th>
+                                <th>Box Office ($M)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Avengers: Endgame</td>
+                                <td>2019</td>
+                                <td>2797.8</td>
+                            </tr>
+                            <tr>
+                                <td>Titanic</td>
+                                <td>1997</td>
+                                <td>2187.5</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">Avatar</td>
+                                <td>2009</td>
+                                <td rowspan="2">2847.2</td>
+                            </tr>
+                            <tr>
+                                <td>2022 (re-release)</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="3">Box office figures are worldwide and in millions</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                
+                    <table>
+                        <caption>Critically Acclaimed Movies</caption>
+                        <thead>
+                            <tr>
+                                <th>Movie</th>
+                                <th>Director</th>
+                                <th>IMDB Rating</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>The Shawshank Redemption</td>
+                                <td>Frank Darabont</td>
+                                <td>9.3</td>
+                            </tr>
+                            <tr>
+                                <td>The Godfather</td>
+                                <td>Francis Ford Coppola</td>
+                                <td>9.2</td>
+                            </tr>
+                            <tr>
+                                <td>The Dark Knight</td>
+                                <td>Christopher Nolan</td>
+                                <td>9.0</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="3">Ratings as of 2024</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                
+                    <p>
+                        The tables above provide an overview of some of the most popular and critically acclaimed movies. 
+                        The first table lists top movies by worldwide box office earnings, while the second table highlights films with the highest IMDB ratings.
+                    </p>
+                </section>
+
+                <head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>Lists</title>
+                    <style>
+                        ul, ol {
+                            padding-left: 20px;
+                        }
+                        li {
+                            margin: 5px 0;
+                        }
+                    </style>
+                </head>
+                <body>
+
+                <section>
+                    <h2>Famous Tourist Destinations</h2>
+
+                    <ol>
+                        <li>Paris
+                            <ul>
+                                <li>Eiffel Tower</li>
+                                <li>Louvre Museum</li>
+                                <li>Notre-Dame Cathedral</li>
+                            </ul>
+                        </li>
+                        <li>New York
+                            <ul>
+                                <li>Statue of Liberty</li>
+                                <li>Central Park</li>
+                            </ul>
+                        </li>
+                        <li>Rome
+                            <ul>
+                                <li>Colosseum</li>
+                                <li>Vatican City</li>
+                            </ul>
+                        </li>
+                        <li>Tokyo</li>
+                        <li>Sydney</li>
+                    </ol>
+
+                    <p>
+                        The list above highlights some of the most famous tourist destinations in the world. 
+                        Paris is renowned for its iconic landmarks such as the Eiffel Tower and the Louvre Museum. 
+                        New York offers the Statue of Liberty and Central Park, while Rome boasts the Colosseum and Vatican City. 
+                        Tokyo and Sydney are also popular travel destinations with their own unique attractions.
+                    </p>
+                </section>
+
+                <section id="image-section">
+                    <h2>Image</h2>
+                    <p>Below is a stunning landscape image:</p>
+            
+                    <img src="https://images.pexels.com/photos/301599/pexels-photo-301599.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Beautiful Landscape">
+                    <p>
+                        This breathtaking image captures a serene landscape featuring rolling hills and a dramatic sky. 
+                        The vibrant colors and natural beauty make it a perfect example of stunning landscape photography.
+                    </p>
+                </section>
+
+                <section class="audio-section">
+                    <h2>Audio Clip</h2>
+                
+                    <audio controls>
+                        <source src="https://pat-crawford-sdds.netlify.app/shared/fall-2021/web700/A3/sample-audio.mp3" type="audio/mpeg">
+                        <source src="https://pat-crawford-sdds.netlify.app/shared/fall-2021/web700/A3/sample-audio.ogg" type="audio/ogg">
+                        Your browser does not support the audio element.
+                    </audio>
+                
+                    <p>
+                        This sample audio clip is a soothing piece of music, perfect for relaxation. 
+                        The HTML5 audio element allows you to easily embed audio content directly into a web page, supporting multiple audio formats for compatibility across different browsers.
+                    </p>
+                </section>
+
+                <section class="video-section">
+                    <h2>Video Clip</h2>
+                
+                    <video controls width="600">
+                        <source src="https://pat-crawford-sdds.netlify.app/shared/fall-2021/web700/A3/sample-video.mp4" type="video/mp4">
+                        <source src="https://pat-crawford-sdds.netlify.app/shared/fall-2021/web700/A3/sample-video.ogg" type="video/ogg">
+                        <source src="https://pat-crawford-sdds.netlify.app/shared/fall-2021/web700/A3/sample-video.webm" type="video/webm">
+                        Your browser does not support the video tag.
+                    </video>
+                
+                    <p>
+                        This sample video clip showcases a beautiful time-lapse of a bustling cityscape. 
+                        HTML5 video elements make it easy to embed video content on a webpage, with support for multiple formats ensuring compatibility across different browsers.
+                    </p>
+                </section>
+                
+            </main>
+        </div>
+    </div>
+</body>
+</html>
